@@ -22,7 +22,7 @@ Docker Compose ( not used while building the project)
 bash
 Copy
 Edit
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/umutxcan/Docker-Projeler
 cd your-repo
 2. Customize Configuration Files
 Edit files like docker-compose.yml, app.py, or Dockerfile if needed, to fit your app or environment.
