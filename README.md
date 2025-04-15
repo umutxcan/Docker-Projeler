@@ -22,29 +22,31 @@ Docker Compose ( not used while building the project)
 bash
 Copy
 Edit
-git clone https://github.com/umutxcan/Docker-Projeler
+<pre> git clone https://github.com/your-username/your-repo.git  
+ cd your-repo </pre> 
 2. Customize Configuration Files
 Edit files like docker-compose.yml, app.py, or Dockerfile if needed, to fit your app or environment.
 
-3. Build the Docker Image
+
+4. Build the Docker Image
 bash
 Copy
 Edit
-docker build -t python-web-app .
-4. Start the Services
+<pre> docker build -t python-web-app . </pre>  
+5. Start the Services
 Use Docker Compose to spin up both the app and the database:
 
 bash
 Copy
 Edit
-docker-compose up -d
+<pre> docker-compose up -d </pre>   
 ## 🌍 Accessing the App
 Once the containers are running, you can access the web app by visiting:
 
 arduino
 Copy
 Edit
-http://localhost:5000
+ <pre> http://localhost:5000  </pre>    
 Or:
 
 pgsql
@@ -59,12 +61,12 @@ To stop the containers:
 bash
 Copy
 Edit
-docker-compose down
+ <pre> docker-compose down </pre>  
 To rebuild everything from scratch:
 
 bash
 Copy
 Edit
-docker-compose down --volumes
-docker-compose up --build
+ <pre>  docker-compose down </pre>   
+ <pre>  docker-compose up --build </pre>   
 
