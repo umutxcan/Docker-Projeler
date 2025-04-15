@@ -1,5 +1,5 @@
 # Python Web App + Database Docker Setup
-This project sets up a basic web application using Python (Flask) and a PostgreSQL database using Docker.
+This project sets up a basic web application using Python (Flask) and a PostgreSQL database using Docker.The image file and containers must be downloaded, and the required commands must be executed. If a specific path is needed, please follow the instructions step by step.
 
 
 
